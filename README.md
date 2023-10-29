@@ -16,6 +16,18 @@ It is a ecommerce web application :)
 - User can view and edit their account information
 - User can create and delete reviews and ratings for each product
 
+## For Docker compose you need to set environments in .env 
+- ROOT_PASSWORD=
+- DB_NAME=
+- DB_USERNAME=
+- DB_PASSWORD=
+- STRIPE_SECRET_KEY=
+- STRIPE_PUBLIC_KEY=
+- JWT_SECRET=
+- TEST_USER=
+- TEST_PASSWORD=
+- TEST_ROLE=
+
 <img width="1440" alt="Screen Shot 2023-01-22 at 9 46 11 PM" src="https://user-images.githubusercontent.com/55761537/213919329-c3bd4c78-4df1-4e5b-87e3-e2a2553d7f4b.png">
 <img width="765" alt="Screen Shot 2023-01-18 at 1 54 58 PM" src="https://user-images.githubusercontent.com/55761537/213095601-787f7209-00e0-4b38-a80d-c9956d7b4f03.png">
 <img width="1413" alt="Screen Shot 2023-01-22 at 9 49 25 PM" src="https://user-images.githubusercontent.com/55761537/213919412-937ac0c1-251d-490d-91bc-6291ad1a0aa3.png">
